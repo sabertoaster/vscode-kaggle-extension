@@ -1,0 +1,10 @@
+project: my-project
+kernel_slug: yourname/my-awesome-kernel
+code_file: notebook.ipynb
+accelerator: none  # none|gpu|tpu
+internet: false
+privacy: private   # private|public
+datasets: []
+competitions: []
+outputs:
+  download_to: .kaggle-outputs/
